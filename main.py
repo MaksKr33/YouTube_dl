@@ -68,7 +68,7 @@ class Youtubers (QMainWindow):
         self.Combo_button.clicked.connect(self.Combo)
 
     def __save(self): 
-        self.Save_button = QPushButton(self) # Кнопка вибору каталогу 
+        self.Save_button = QPushButton(self) 
         self.Save_button.move(15, 100)
         self.Save_button.setText('Save')
         self.Save_button.clicked.connect(self.saveFile)
