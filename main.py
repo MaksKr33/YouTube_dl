@@ -34,7 +34,7 @@ class Youtubers (QMainWindow):
     def __editText(self):    
         self.text = QLineEdit(self) # Створюємо поле для вводу тексту
         self.text.setPlaceholderText("Вставте силку для скачування" )
-        self.text.move(130,35 ) # Розміщення поля у вікні
+        self.text.move(130,35 )
         self.text.setFixedWidth(300)
     
     def __combo(self):
