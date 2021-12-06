@@ -32,7 +32,7 @@ class Youtubers (QMainWindow):
         self.progres.setFixedWidth(430)
     
     def __editText(self):    
-        self.text = QLineEdit(self) # Створюємо поле для вводу тексту
+        self.text = QLineEdit(self) 
         self.text.setPlaceholderText("Вставте силку для скачування" )
         self.text.move(130,35 )
         self.text.setFixedWidth(300)
