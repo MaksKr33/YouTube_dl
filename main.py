@@ -1,11 +1,9 @@
 
 from PyQt5 import QtWidgets
 from PyQt5 import QtCore
-# from PyQt5.QtCore import QStringListModel
 from PyQt5.QtWidgets import QApplication, QFileDialog, QLineEdit, QMainWindow, QProgressBar, QPushButton, QComboBox
 
 import pyperclip
-import os
 import sys
 import pafy 
 
